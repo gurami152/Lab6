@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".MainActivity">
+    <item
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="never"/>
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/action_sound"
+            android:orderInCategory="100"
+            android:title="@string/action_sound"
+            app:showAsAction="never"/>
+    </group>
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/action_exit"
+        app:showAsAction="never"/>
+</menu>
